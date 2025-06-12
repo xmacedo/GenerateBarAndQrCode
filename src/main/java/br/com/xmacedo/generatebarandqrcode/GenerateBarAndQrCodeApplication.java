@@ -1,0 +1,13 @@
+package br.com.xmacedo.generatebarandqrcode;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GenerateBarAndQrCodeApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GenerateBarAndQrCodeApplication.class, args);
+    }
+
+}
